@@ -88,7 +88,7 @@
   .particle{ position:absolute; border-radius:9999px; background:rgba(22,118,210,0.35); animation: floatUp 8s linear infinite; }
   @keyframes floatUp{ 0%{transform:translateY(0) scale(1); opacity:0;} 10%{opacity:1;} 100%{transform:translateY(-160px) scale(0.4); opacity:0;} }
 
-  .card-hover{ transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease; }
+  .card-hover{ transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease; cursor:pointer; }
   .card-hover:hover{ transform: translateY(-6px); box-shadow: 0 18px 34px -12px rgba(7,59,112,0.25); border-color: var(--bright-blue); }
   .card-hover:hover .prod-img{ transform:scale(1.08); }
   .card-hover:hover .arrow-btn{ transform: translateX(4px); background:var(--bright-blue); }
@@ -332,7 +332,7 @@
 
       <div class="relative reveal reveal-delay-2">
         <div class="absolute -inset-6 rounded-full blur-3xl opacity-40" style="background:radial-gradient(circle, var(--bright-blue), transparent 70%);"></div>
-        <img src="het (3).png" alt="Large industrial stainless steel wire spool" class="relative rounded-2xl w-full h-56 md:h-72 object-cover shadow-2xl">
+        <img src="baner (2).png" alt="Large industrial stainless steel wire spool" class="relative rounded-2xl w-full h-72 md:h-72 object-cover shadow-2xl">
         <p class="font-display font-extrabold text-2xl md:text-3xl leading-tight mt-6 text-right">STRONG WIRE.<br>STRONGER<br>CONNECTIONS.</p>
       </div>
     </div>
@@ -430,7 +430,7 @@
   <div class="max-w-[1400px] mx-auto px-4 md:px-8">
     <div class="grid lg:grid-cols-2 gap-12 items-center mb-14">
       <div class="reveal">
-        <img src="Screenshot 2026-09-08 230701.png" loading="lazy" alt="Industrial warehouse stacked with steel wire coils" class="rounded-2xl shadow-xl w-full h-full md:h-full object-cover">
+        <img src="baner (1).png" loading="lazy" alt="Industrial warehouse stacked with steel wire coils" class="rounded-2xl shadow-xl w-full h-full md:h-full object-cover">
       </div>
       <div class="reveal reveal-delay-1">
         <div class="flex items-center gap-3 mb-3">
@@ -469,110 +469,6 @@
   </div>
 </section>
 
-<!-- ============ INDUSTRIES WE SERVE ============ -->
-<!-- <section class="py-16 md:py-24 bg-white">
-  <div class="max-w-[1400px] mx-auto px-4 md:px-8">
-    <div class="text-center mb-12 reveal">
-      <h2 class="font-display font-extrabold text-3xl md:text-4xl" style="color:var(--navy);">Industries We Serve</h2>
-    </div>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-      <div class="relative rounded-2xl overflow-hidden h-48 reveal group">
-        <img src="https://picsum.photos/id/1050/500/400" loading="lazy" alt="Chemical industry facility" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-        <div class="absolute inset-0" style="background:linear-gradient(180deg, rgba(7,59,112,0.1), rgba(7,59,112,0.85));"></div>
-        <div class="absolute bottom-0 p-4 text-white">
-          <i data-lucide="flask-conical" class="w-5 h-5 mb-1"></i>
-          <p class="font-bold">Chemical</p>
-          <p class="text-xs text-blue-100">Corrosion-resistant wire for chemical plants</p>
-        </div>
-      </div>
-      <div class="relative rounded-2xl overflow-hidden h-48 reveal reveal-delay-1 group">
-        <img src="https://picsum.photos/id/1044/500/400" loading="lazy" alt="Oil and gas refinery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-        <div class="absolute inset-0" style="background:linear-gradient(180deg, rgba(7,59,112,0.1), rgba(7,59,112,0.85));"></div>
-        <div class="absolute bottom-0 p-4 text-white">
-          <i data-lucide="fuel" class="w-5 h-5 mb-1"></i>
-          <p class="font-bold">Oil &amp; Gas</p>
-          <p class="text-xs text-blue-100">High-strength alloys for extreme environments</p>
-        </div>
-      </div>
-      <div class="relative rounded-2xl overflow-hidden h-48 reveal reveal-delay-2 group">
-        <img src="https://picsum.photos/id/1053/500/400" loading="lazy" alt="Marine shipping industry" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-        <div class="absolute inset-0" style="background:linear-gradient(180deg, rgba(7,59,112,0.1), rgba(7,59,112,0.85));"></div>
-        <div class="absolute bottom-0 p-4 text-white">
-          <i data-lucide="anchor" class="w-5 h-5 mb-1"></i>
-          <p class="font-bold">Marine</p>
-          <p class="text-xs text-blue-100">Saltwater-grade wire for marine applications</p>
-        </div>
-      </div>
-      <div class="relative rounded-2xl overflow-hidden h-48 reveal reveal-delay-3 group">
-        <img src="https://picsum.photos/id/1069/500/400" loading="lazy" alt="Power generation plant" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-        <div class="absolute inset-0" style="background:linear-gradient(180deg, rgba(7,59,112,0.1), rgba(7,59,112,0.85));"></div>
-        <div class="absolute bottom-0 p-4 text-white">
-          <i data-lucide="zap" class="w-5 h-5 mb-1"></i>
-          <p class="font-bold">Power</p>
-          <p class="text-xs text-blue-100">Reliable wire for power generation equipment</p>
-        </div>
-      </div>
-      <div class="relative rounded-2xl overflow-hidden h-48 reveal reveal-delay-4 group">
-        <img src="https://picsum.photos/id/1071/500/400" loading="lazy" alt="Engineering and manufacturing facility" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-        <div class="absolute inset-0" style="background:linear-gradient(180deg, rgba(7,59,112,0.1), rgba(7,59,112,0.85));"></div>
-        <div class="absolute bottom-0 p-4 text-white">
-          <i data-lucide="cog" class="w-5 h-5 mb-1"></i>
-          <p class="font-bold">Engineering</p>
-          <p class="text-xs text-blue-100">Precision wire for engineering applications</p>
-        </div>
-      </div>
-      <div class="relative rounded-2xl overflow-hidden h-48 reveal group">
-        <img src="https://picsum.photos/id/1048/500/400" loading="lazy" alt="Petrochemical processing plant" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-        <div class="absolute inset-0" style="background:linear-gradient(180deg, rgba(7,59,112,0.1), rgba(7,59,112,0.85));"></div>
-        <div class="absolute bottom-0 p-4 text-white">
-          <i data-lucide="factory" class="w-5 h-5 mb-1"></i>
-          <p class="font-bold">Petrochemical</p>
-          <p class="text-xs text-blue-100">Robust alloys for petrochemical processing</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<!-- ============ PRODUCT VIDEOS ============ -->
-<!-- <section class="py-16 md:py-24" style="background:var(--bg-light);">
-  <div class="max-w-[1400px] mx-auto px-4 md:px-8">
-    <div class="text-center mb-12 reveal">
-      <span class="text-sm font-bold tracking-wide" style="color:var(--blue);">IN ACTION</span>
-      <h2 class="font-display font-extrabold text-3xl md:text-4xl mt-2" style="color:var(--navy);">See Our Products in Action</h2>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="text-left reveal">
-        <div class="relative rounded-2xl overflow-hidden h-56 shadow-md">
-          <video class="w-full h-full object-cover" autoplay muted loop playsinline preload="metadata">
-            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
-          </video>
-        </div>
-        <p class="font-bold mt-3" style="color:var(--navy);">Wire Spooling</p>
-        <p class="text-sm" style="color:var(--text-grey);">Automated spooling for consistent quality.</p>
-      </div>
-      <div class="text-left reveal reveal-delay-1">
-        <div class="relative rounded-2xl overflow-hidden h-56 shadow-md">
-          <video class="w-full h-full object-cover" autoplay muted loop playsinline preload="metadata">
-            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
-          </video>
-        </div>
-        <p class="font-bold mt-3" style="color:var(--navy);">Industrial Wire Processing</p>
-        <p class="text-sm" style="color:var(--text-grey);">Precision drawing and finishing.</p>
-      </div>
-      <div class="text-left reveal reveal-delay-2">
-        <div class="relative rounded-2xl overflow-hidden h-56 shadow-md">
-          <video class="w-full h-full object-cover" autoplay muted loop playsinline preload="metadata">
-            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
-          </video>
-        </div>
-        <p class="font-bold mt-3" style="color:var(--navy);">Quality Inspection</p>
-        <p class="text-sm" style="color:var(--text-grey);">Every batch tested before dispatch.</p>
-      </div>
-    </div>
-  </div>
-</section> -->
-
 
 
 <!-- ============ 4-BOX VIDEO GRID SECTION ============ -->
@@ -586,17 +482,17 @@
       <div class="reveal">
         <div class="relative rounded-2xl overflow-hidden shadow-md aspect-[3/4]">
           <video class="w-full h-full object-cover" autoplay muted loop playsinline preload="metadata">
-            <source src="assents/video/wire 3 (1).mp4" type="video/mp4">
+            <source src="assents/video/duplex.mp4" type="video/mp4">
           </video>
           <div class="absolute inset-0 flex items-end p-3" style="background:linear-gradient(180deg, transparent 55%, rgba(7,59,112,0.85));">
-            <p class="text-white font-semibold text-xs sm:text-sm">Wire Drawing</p>
+            <p class="text-white font-semibold text-xs sm:text-sm">duplex wire</p>
           </div>
         </div>
       </div>
       <div class="reveal reveal-delay-1">
         <div class="relative rounded-2xl overflow-hidden shadow-md aspect-[3/4]">
           <video class="w-full h-full object-cover" autoplay muted loop playsinline preload="metadata">
-            <source src="assents/video/wire 3 (2).mp4" type="video/mp4">
+            <source src="assents/video/super duplerx.mp4" type="video/mp4">
           </video>
           <div class="absolute inset-0 flex items-end p-3" style="background:linear-gradient(180deg, transparent 55%, rgba(7,59,112,0.85));">
             <p class="text-white font-semibold text-xs sm:text-sm">Annealing</p>
@@ -609,7 +505,7 @@
             <source src="assents/video/Electrical_wire_product_advertis…_202609082330.mp4" type="video/mp4">
           </video>
           <div class="absolute inset-0 flex items-end p-3" style="background:linear-gradient(180deg, transparent 55%, rgba(7,59,112,0.85));">
-            <p class="text-white font-semibold text-xs sm:text-sm">Coiling</p>
+            <p class="text-white font-semibold text-xs sm:text-sm">Cobalt Wire</p>
           </div>
         </div>
       </div>
@@ -619,7 +515,7 @@
             <source src="assents/video/Wire_spool_product_showcase_202609082341.mp4" type="video/mp4">
           </video>
           <div class="absolute inset-0 flex items-end p-3" style="background:linear-gradient(180deg, transparent 55%, rgba(7,59,112,0.85));">
-            <p class="text-white font-semibold text-xs sm:text-sm">Packaging</p>
+            <p class="text-white font-semibold text-xs sm:text-sm">Stainless Steel Wire</p>
           </div>
         </div>
       </div>
@@ -694,18 +590,13 @@
 
     <!-- map -->
     <div class="mt-6 rounded-2xl overflow-hidden border reveal reveal-delay-3" style="border-color:var(--light-blue);">
-      <div class="relative h-64 md:h-72 w-full" style="background:linear-gradient(135deg, var(--light-blue), var(--bg-light));">
-        <div class="absolute inset-0 flex items-center justify-center flex-col">
-          <div class="w-12 h-12 rounded-full flex items-center justify-center mb-3 shadow-lg" style="background:var(--blue);">
-            <i data-lucide="map-pin" class="w-6 h-6 text-white"></i>
-          </div>
-          <p class="font-display font-bold text-lg" style="color:var(--navy);">All India Wire</p>
-          <p class="text-sm mb-4" style="color:var(--text-grey);">Mumbai - 400004</p>
-          <a href="https://www.google.com/maps/search/?api=1&query=Mumbai+400004+All+India+Wire" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-white px-5 py-2.5 rounded-full font-semibold text-sm hover:brightness-110 transition" style="background:var(--blue);">
-            View on Google Maps <i data-lucide="arrow-right" class="w-4 h-4"></i>
-          </a>
-        </div>
-      </div>
+      <iframe
+        title="All India Wire - Live Location"
+        src="https://www.google.com/maps?q=Mumbai+400004+All+India+Wire&output=embed"
+        class="w-full h-64 md:h-80 border-0"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
   </div>
 </section>
@@ -782,42 +673,42 @@
   <div class="min-h-full flex items-center justify-center p-4">
     <div class="bg-white rounded-2xl shadow-2xl w-full max-w-lg p-6 md:p-8 modal-panel relative">
       <button onclick="closeQuoteModal()" aria-label="Close" class="absolute top-4 right-4"><i data-lucide="x" class="w-5 h-5" style="color:var(--text-grey);"></i></button>
-      <h3 class="font-display font-bold text-2xl mb-6" style="color:var(--navy);">Get a Quote</h3>
+      <h3 id="quoteModalTitle" class="font-display font-bold text-2xl mb-6" style="color:var(--navy);">Get a Quote</h3>
       <form id="quoteForm" novalidate class="space-y-4">
         <div class="grid sm:grid-cols-2 gap-4">
           <div>
             <label class="text-xs font-semibold" style="color:var(--text-grey);">Name *</label>
-            <input required type="text" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
+            <input required id="qName" type="text" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
           </div>
           <div>
             <label class="text-xs font-semibold" style="color:var(--text-grey);">Company Name</label>
-            <input type="text" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
+            <input id="qCompany" type="text" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
           </div>
           <div>
             <label class="text-xs font-semibold" style="color:var(--text-grey);">Phone *</label>
-            <input required type="tel" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
+            <input required id="qPhone" type="tel" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
           </div>
           <div>
             <label class="text-xs font-semibold" style="color:var(--text-grey);">Email</label>
-            <input type="email" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
+            <input id="qEmail" type="email" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
           </div>
           <div>
             <label class="text-xs font-semibold" style="color:var(--text-grey);">Product / Grade</label>
-            <input type="text" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
+            <input id="qProduct" type="text" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
           </div>
           <div>
             <label class="text-xs font-semibold" style="color:var(--text-grey);">Quantity</label>
-            <input type="text" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
+            <input id="qQty" type="text" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);">
           </div>
         </div>
         <div>
           <label class="text-xs font-semibold" style="color:var(--text-grey);">Message</label>
-          <textarea rows="3" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);"></textarea>
+          <textarea id="qMsg" rows="3" class="w-full mt-1 px-4 py-2.5 rounded-lg border text-sm outline-none focus:border-[var(--bright-blue)]" style="border-color:var(--light-blue);"></textarea>
         </div>
         <button type="submit" class="w-full flex items-center justify-center gap-2 text-white px-6 py-3 rounded-full font-semibold text-sm hover:brightness-110 transition" style="background:var(--blue);">
-          Request Quote <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          <i data-lucide="message-circle" class="w-4 h-4"></i> Send on WhatsApp
         </button>
-        <p id="quoteSuccess" class="hidden text-sm text-center font-semibold py-2 rounded-lg" style="color:var(--blue); background:var(--light-blue);">Thank you! Your quote request has been submitted. Our team will contact you soon.</p>
+        <p id="quoteSuccess" class="hidden text-sm text-center font-semibold py-2 rounded-lg" style="color:var(--blue); background:var(--light-blue);">Opening WhatsApp with your details...</p>
       </form>
     </div>
   </div>
@@ -835,26 +726,30 @@
     </div>
   </div>
 </div>
-<!-- <img src="assents/product/p (6).png" alt=""> -->
 <script>
 lucide.createIcons();
 
+/* ---------------- WHATSAPP NUMBER ---------------- */
+const WHATSAPP_NUMBER = "917777051524"; // country code + number, no +/spaces
+
 /* ---------------- PRODUCT DATA ---------------- */
 const products = [
-  { title:"Stainless Steel TIG & MIG Wire", desc:"304L, 304, 309L, 310L, 316", img:"assents/product/p (2).png", cat:"stainless" },
-  { title:"Duplex Wire", desc:"Duplex, Super Duplex", img:"assents/product/p (3).png", cat:"duplex" },
+  { title:"Stainless Steel TIG wire", desc:"304L, 304, 309L, 310L, 316", img:"assents/product/wire11 (3).png", cat:"stainless" },
+  { title:"Stainless Steel MIG Wire", desc:"304L, 304, 309L, 310L, 316", img:"assents/product/p (2).png", cat:"stainless" },
   { title:"Special Alloy Wire", desc:"600, 625, 800, 825", img:"assents/product/p (1).png", cat:"special" },
   { title:"Cobalt Wire", desc:"Cobalt, Monel", img:"assents/product/p (4).png", cat:"nickel" },
   { title:"Alloy Wire", desc:"Alloy-20, 904L", img:"assents/product/p (5).png", cat:"special" },
   { title:"Other Grades", desc:"90/10, 70/30 etc.", img:"assents/product/p (6).png", cat:"copper" },
   { title:"Industrial Applications", desc:"Chemical, Oil & Gas, Marine, Power and more.", img:"assents/product/p.png", cat:"special" },
+  { title:"Duplex Wire Road", desc:"Chemical, Oil & Gas, Marine, Power and more.", img:"assents/product/wire11 (1).png", cat:"special" },
+  { title:"super Duplex Wire Road", desc:".", img:"assents/product/wire11 (2).png", cat:"special" },
   { title:"Custom Requirements", desc:"We also supply as per customer specifications.", img:"assents/product/p (7).png", cat:"copper" }
 ];
 
 function renderProducts(list){
   const grid = document.getElementById('productGrid');
-  grid.innerHTML = list.map(p => `
-    <div class="card-hover bg-white rounded-xl md:rounded-2xl border p-1.5 sm:p-3 md:p-4 group" style="border-color:var(--light-blue);">
+  grid.innerHTML = list.map((p, i) => `
+    <div class="card-hover bg-white rounded-xl md:rounded-2xl border p-1.5 sm:p-3 md:p-4 group" style="border-color:var(--light-blue);" onclick="openQuoteModal('${p.title.replace(/'/g,"\\'")}')">
       <div class="rounded-lg md:rounded-xl overflow-hidden h-25 sm:h-28 md:h-40 mb-1.5 sm:mb-3 md:mb-4" style="background:var(--bg-light);">
         <img src="${p.img}" loading="lazy" alt="${p.title} - ${p.desc}" class="prod-img w-full h-full object-contain">
       </div>
@@ -863,7 +758,7 @@ function renderProducts(list){
           <h3 class="font-bold text-[10px] leading-tight sm:text-sm md:text-base mb-0.5 sm:mb-1 line-clamp-2" style="color:var(--navy);">${p.title}</h3>
           <p class=" sm:block text-xs md:text-sm" style="color:var(--text-grey);">${p.desc}</p>
         </div>
-        <button aria-label="View ${p.title}" class="arrow-btn flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9 rounded-full flex items-center justify-center text-white" style="background:var(--blue);">
+        <button aria-label="View ${p.title}" class="arrow-btn flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9 rounded-full flex items-center justify-center text-white" style="background:var(--blue);" onclick="event.stopPropagation(); openQuoteModal('${p.title.replace(/'/g,"\\'")}')">
           <i data-lucide="arrow-right" class="w-3 h-3 sm:w-4 sm:h-4"></i>
         </button>
       </div>
@@ -927,10 +822,20 @@ const navObserver = new IntersectionObserver((entries)=>{
 }, { rootMargin:'-40% 0px -50% 0px' });
 sections.forEach(s=>{ if(s) navObserver.observe(s); });
 
-/* ---------------- QUOTE MODAL ---------------- */
-function openQuoteModal(){
-  document.getElementById('quoteModal').classList.remove('hidden');
+/* ---------------- QUOTE MODAL (with WhatsApp send) ---------------- */
+function openQuoteModal(productName){
+  const modal = document.getElementById('quoteModal');
+  modal.classList.remove('hidden');
   document.body.style.overflow='hidden';
+  const titleEl = document.getElementById('quoteModalTitle');
+  const productField = document.getElementById('qProduct');
+  if(productName){
+    titleEl.textContent = 'Enquire: ' + productName;
+    productField.value = productName;
+  } else {
+    titleEl.textContent = 'Get a Quote';
+    productField.value = '';
+  }
   lucide.createIcons();
 }
 function closeQuoteModal(){
@@ -938,14 +843,43 @@ function closeQuoteModal(){
   document.body.style.overflow='';
 }
 document.getElementById('quoteModal').addEventListener('click', (e)=>{ if(e.target.id==='quoteModal') closeQuoteModal(); });
+
 document.getElementById('quoteForm').addEventListener('submit', (e)=>{
   e.preventDefault();
-  const inputs = e.target.querySelectorAll('input[required]');
+  const name = document.getElementById('qName');
+  const phone = document.getElementById('qPhone');
+  const company = document.getElementById('qCompany').value.trim();
+  const email = document.getElementById('qEmail').value.trim();
+  const productVal = document.getElementById('qProduct').value.trim();
+  const qty = document.getElementById('qQty').value.trim();
+  const msg = document.getElementById('qMsg').value.trim();
+
   let valid = true;
-  inputs.forEach(i=>{ if(!i.value.trim()){ valid=false; i.classList.add('border-red-500'); } else { i.classList.remove('border-red-500'); } });
+  [name, phone].forEach(i=>{ if(!i.value.trim()){ valid=false; i.classList.add('border-red-500'); } else { i.classList.remove('border-red-500'); } });
   if(!valid) return;
+
+  /* Build WhatsApp message with all details */
+  const lines = [
+    "*New Enquiry - All India Wire*",
+    "Name: " + name.value.trim(),
+    "Phone: " + phone.value.trim()
+  ];
+  if(company) lines.push("Company: " + company);
+  if(email) lines.push("Email: " + email);
+  if(productVal) lines.push("Product / Grade: " + productVal);
+  if(qty) lines.push("Quantity: " + qty);
+  if(msg) lines.push("Message: " + msg);
+
+  const waText = encodeURIComponent(lines.join("\n"));
+  const waUrl = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + waText;
+
   document.getElementById('quoteSuccess').classList.remove('hidden');
-  setTimeout(()=>{ closeQuoteModal(); e.target.reset(); document.getElementById('quoteSuccess').classList.add('hidden'); }, 2200);
+  setTimeout(()=>{
+    window.open(waUrl, '_blank');
+    closeQuoteModal();
+    e.target.reset();
+    document.getElementById('quoteSuccess').classList.add('hidden');
+  }, 500);
 });
 
 /* ---------------- CONTACT FORM ---------------- */
@@ -966,20 +900,25 @@ document.getElementById('contactForm').addEventListener('submit', (e)=>{
   else { emailErr.classList.add('hidden'); email.classList.remove('border-red-500'); }
 
   if(!valid) return;
+
+  const lines = [
+    "*New Contact Message - All India Wire*",
+    "Name: " + name.value.trim(),
+    "Email: " + email.value.trim(),
+    "Message: " + msg.value.trim()
+  ];
+  const waText = encodeURIComponent(lines.join("\n"));
+  const waUrl = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + waText;
+
   document.getElementById('contactSuccess').classList.remove('hidden');
-  setTimeout(()=>{ e.target.reset(); document.getElementById('contactSuccess').classList.add('hidden'); }, 3000);
+  setTimeout(()=>{
+    window.open(waUrl, '_blank');
+    e.target.reset();
+    document.getElementById('contactSuccess').classList.add('hidden');
+  }, 500);
 });
 
 /* ---------------- VIDEO CONTROLS ---------------- */
-const mainVideo = document.getElementById('mainVideo');
-const videoToggleBtn = document.getElementById('videoToggleBtn');
-const videoIcon = document.getElementById('videoIcon');
-videoToggleBtn.addEventListener('click', ()=>{
-  if(mainVideo.paused){ mainVideo.play(); videoIcon.setAttribute('data-lucide','pause'); }
-  else { mainVideo.pause(); videoIcon.setAttribute('data-lucide','play'); }
-  lucide.createIcons();
-});
-
 function openVideoModal(title){
   document.getElementById('videoModalTitle').textContent = title;
   document.getElementById('videoModal').classList.remove('hidden');
@@ -1034,7 +973,7 @@ function renderSearchResults(query){
   }
   searchEmpty.classList.add('hidden');
   searchResults.innerHTML = finalList.map(p => `
-    <div class="flex items-center gap-3 p-2 rounded-lg hover:bg-[var(--light-blue)] transition cursor-pointer" onclick="closeSearch(); document.getElementById('products').scrollIntoView({behavior:'smooth'});">
+    <div class="flex items-center gap-3 p-2 rounded-lg hover:bg-[var(--light-blue)] transition cursor-pointer" onclick="closeSearch(); openQuoteModal('${p.title.replace(/'/g,"\\'")}');">
       <img src="${p.img}" class="w-12 h-12 rounded-lg object-cover flex-shrink-0" alt="${p.title}">
       <div>
         <p class="font-semibold text-sm" style="color:var(--navy);">${p.title}</p>
@@ -1054,7 +993,7 @@ searchInput.addEventListener('input', (e)=> renderSearchResults(e.target.value))
 })();
 
 /* ---------------- WHATSAPP FAB ---------------- */
-document.getElementById('whatsappFab').href = "https://wa.me/917777051524?text=" + encodeURIComponent("Hello All India Wire, I would like to enquire about your wire products.");
+document.getElementById('whatsappFab').href = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent("Hello All India Wire, I would like to enquire about your wire products.");
 </script>
 </body>
 </html>
